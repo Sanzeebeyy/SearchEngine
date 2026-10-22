@@ -12,7 +12,7 @@ USER_AGENT = f"{BOT_NAME}/v1.0 (sanjibpoudel49@gmail.com)"
 DEFAULT_DELAY = 2.0
 MAX_PAGES = 100 # CHANGE THIS TO 5000
 DOMAIN_LIMIT = 25 # AND THIS TO 1250
-OUTPUT_FILE = 'pages.jsonl' # AND THIS TO full_pages.jsonl
+OUTPUT_FILE = '../../../data/raw/pages.jsonl' # AND THIS TO full_pages.jsonl
 ALLOWED_SCHEMES = {'http', 'https'}
 
 SEEDS = [ # ADD MORE SEEDS FOR 5000 RUNS GIVEN IN seeds.txt
